@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+button.btn {
+  background-color: #f97316;
+  width: 80%;
+  margin-inline: auto;
+  padding: 5px;
+  color: #f7f7f7;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 0.5em;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+button.btn:disabled {
+  background-color: #777;
+}
